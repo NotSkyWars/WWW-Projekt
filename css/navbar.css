@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    height: 10vh;
+    border-radius: 1vw 1vw 1vw 1vw;
+-webkit-border-radius:  1vw 1vw 1vw 1vw;
+-moz-border-radius:  1vw 1vw 1vw 1vw;
+display: flex;
+align-items: center;
+justify-content: center;
+  }
+  
+  .navbar a {
+    float: left;
+    margin: 0 1vw;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 10vh 1.5vw;
+    text-decoration: none;
+    
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    height: 10vh;
+    padding: 2vh 1.5vw;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: purple;
+    border-radius: 5vw;
+    -webkit-border-radius:  5vw;
+    -moz-border-radius:  5vw;
+  }
+  
+  .navbar-img{
+    width: 4%;
+    height: auto;
+      display: flex;
+      align-items: left;
+justify-content: left;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    border-radius: 0vw 0 2vw 2vw;
+    -webkit-border-radius:0vw 0 2vw 2vw;
+    -moz-border-radius:0vw 0vw 2vw 2vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 101;
+  }
+
+  /*fix design*/
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    margin: 2vh 0;
+    padding: 1vh 1.5vw;
+    
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    border-radius: .5vw;
+    -webkit-border-radius:.5vw;
+    -moz-border-radius:.5vw;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

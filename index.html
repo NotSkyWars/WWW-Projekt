@@ -1,12 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <header id="nav-menu" aria-label="navigation bar">
+    <div class="navbar">
+        <img src="css/media/Logo.png" class ="navbar-img">
+        <a href="#home">«Home»</a>
+        <div class="dropdown">
+            <button class="dropbtn" onClick="changeMenu()"  id="dropbutton">Projekte <strong>☰</strong>
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="dropdown-content" style="display:block;">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div> 
+        <a href="#news">«About»</a>
+        <a href="#" id="language" onclick="changeLanguage()">🇩🇪</a>
+      </div>
+  </header>
+  </main>
+  <body>
+      <section class="Projects">
+        <div class="right-divider"></div>
+        <div class="left-divider"></div>
+        <button class ="previous" id="previous" onclick="previous()">◄</button>
+        <button class ="next" id="next" onclick="next()">►</button>
+       
+          <div class="rotation">
+          
+              <div class="project" id="rotation-0" style="display: block;">
+                <img src="css/media/Logo.png"> 
+                <div class="text-container">
+                    <h1>Test Title</h1>
+                    <p>daasdasdasdsd</p>
+                </div>
+            </div>
+            <div class="project" id="rotation-1" style="display: block;">
+                <img src="css/media/Logo.png"> 
+                <div class="text-container">
+                    <h1>Test Title2</h1>
+                    <p>daasdasdasdsd</p>
+                </div>
+            </div>
+            <div class="project" id="rotation-2" style="display: block;">
+                <img src="css/media/Logo.png"> 
+                <div class="text-container">
+                    <h1>Test Title3</h1>
+                    <p>daasdasdasdsd</p>
+                </div>
+            </div>
+
+            <div class="project" id="rotation-3" style="display: block;">
+                <img src="css/media/Logo.png"> 
+                <div class="text-container">
+                    <h1>Test Title4</h1>
+                    <p>daasdasdasdsd</p>
+                </div>
+            </div>
+
+
+            <div class="project" id="rotation-4" style="display: none;">
+                <img src="css/media/Logo.png"> 
+                <div class="text-container">
+                    <h1>Test Title5</h1>
+                    <p>daasdasdasdsd</p>
+                </div>
+            </div>
+
+            <div class="project" id="rotation-5" style="display: none;">
+                <img src="css/media/Logo.png"> 
+                <div class="text-container">
+                    <h1>Test Title6</h1>
+                    <p>daasdasdasdsd</p>
+                </div>
+            </div>
+          </div></div></div>
+
+          
+
+      </section>
+<section class="highlights">
+
+</section>
+    <script src="js/navbar.js"></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
