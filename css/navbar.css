@@ -1,3 +1,10 @@
+@import url('colors.css');
+
+
+html{
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -6,9 +13,9 @@ body {
     overflow: hidden;
     background-color: #333;
     height: 10vh;
-    border-radius: 1vw 1vw 1vw 1vw;
--webkit-border-radius:  1vw 1vw 1vw 1vw;
--moz-border-radius:  1vw 1vw 1vw 1vw;
+    box-shadow: 1px 6px 44px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: 1px 6px 44px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 6px 44px 0px rgba(0,0,0,1);
 display: flex;
 align-items: center;
 justify-content: center;
@@ -43,7 +50,7 @@ justify-content: center;
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: purple;
+    background-color: var(--highlight-red);
     border-radius: 5vw;
     -webkit-border-radius:  5vw;
     -moz-border-radius:  5vw;
@@ -61,6 +68,7 @@ justify-content: left;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
+    margin-left: -6vw;
     border-radius: 0vw 0 2vw 2vw;
     -webkit-border-radius:0vw 0 2vw 2vw;
     -moz-border-radius:0vw 0vw 2vw 2vw;
@@ -91,3 +99,11 @@ justify-content: left;
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  .nav-divider{
+width: 100%;
+height: 1vh;
+background-color: white;
+
+  }
+  

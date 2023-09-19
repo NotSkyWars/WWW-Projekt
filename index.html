@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML 5 Boilerplate</title>
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <header id="nav-menu" aria-label="navigation bar">
     <div class="navbar">
@@ -17,25 +19,70 @@
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content" id="dropdown-content" style="display:block;">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <table>
+               <tr>
+                <td><a href="#">Test1</a></td>
+                <td><a href="#">Test1</a></td>
+                <td><a href="#">Test1</a></td>
+                <td><a href="#">Test1</a></td>
+               </tr>
+               <tr>
+                <td><a href="#">Test1</a></td>
+                <td><a href="#">Test1</a></td>
+                <td><a href="#">Test1</a></td>
+                <td><a href="#">Test1</a></td>
+               </tr>
+               <tr>
+                <td><a href="#">Test1</a></td>
+                <td><a href="#">Test1</a></td>
+                <td><a href="#">Test1</a></td>
+                <td><a href="#">Test1</a></td>
+               </tr>
+               <tr>
+                <td><a href="#">Test1</a></td>
+                <td><a href="#">Test1</a></td>
+                <td><a href="#">Test1</a></td>
+                <td><a href="#">Test1</a></td>
+               </tr>
+               <tr>
+                <td><a href="#">Test1</a></td>
+                <td><a href="#">Test1</a></td>
+                <td><a href="#">Test1</a></td>
+                <td><a href="#">Test1</a></td>
+               </tr>
+               <tr>
+                <td><a href="#">Test1</a></td>
+                <td><a href="#">Test1</a></td>
+                <td><a href="#">Test1</a></td>
+                <td><a href="#">Test1</a></td>
+               </tr>
+              </table>
             </div>
           </div> 
-        <a href="#news">«About»</a>
+        <a href="#about">«Über uns»</a>
         <a href="#" id="language" onclick="changeLanguage()">🇩🇪</a>
       </div>
+      <div class="nav-divider"></div>
   </header>
   </main>
   <body>
+    <section class="hero">
+      <div class="hero-title">
+        <h1>Projektwoche 2023</h1>
+      </div>
+      
+    </section>
       <section class="Projects">
+        <div class="nav-divider"></div>
         <div class="right-divider"></div>
         <div class="left-divider"></div>
         <button class ="previous" id="previous" onclick="previous()">◄</button>
         <button class ="next" id="next" onclick="next()">►</button>
        
           <div class="rotation">
-          
+            <div class="project hidden" id="hidden"style="display: block;">
+              
+          </div>
               <div class="project" id="rotation-0" style="display: block;">
                 <img src="css/media/Logo.png"> 
                 <div class="text-container">
@@ -50,7 +97,7 @@
                     <p>daasdasdasdsd</p>
                 </div>
             </div>
-            <div class="project" id="rotation-2" style="display: block;">
+            <div class="project" id="rotation-2" style="display: none;">
                 <img src="css/media/Logo.png"> 
                 <div class="text-container">
                     <h1>Test Title3</h1>
@@ -58,7 +105,7 @@
                 </div>
             </div>
 
-            <div class="project" id="rotation-3" style="display: block;">
+            <div class="project" id="rotation-3" style="display: none;">
                 <img src="css/media/Logo.png"> 
                 <div class="text-container">
                     <h1>Test Title4</h1>
@@ -84,11 +131,50 @@
             </div>
           </div></div></div>
 
-          
-
+         
+<div class="welcome">
+<div class="welcome-title">
+  <h1>Willkommen in der Projektwoche 2023!</h1>
+  <p>Willkommen zur offiziellen Seite der Projektwoche 2023, in welcher das 20. Jubiläum des 
+    freien Gymnasiums im Stift Neuzelle im Mittelpunkt steht. Trotz allem werden seit vielen 
+    Jahren, regelmäßig Projektwochen organisiert, in denen die Schüler an einzigartigen 
+    Projekten teilnehmen und diese anschließend präsentieren. Von Sprachen über Kultur, 
+    Wissenschaft, Sport und Handwerk ist alles dabei!</p>
+</div>
+</div>
       </section>
 <section class="highlights">
+<div class="highlight-title">
+  <h1>Highlights</h1>
+</div>
+<div class="highlight-links">
+<table>
+  <tr> <td><a href="#">Schüler Konzert «</a></td></tr>
+  <tr> <td><a href="#">Talentefest «</a></td></tr>
+  <tr> <td><a href="#">Orchester «</a></td></tr>
+</table>
+</div>
+</section>
 
+<section class="footer">
+  <div class="footer-team"><h1>Team</h1>
+    <p>Christian</p>
+    <p>Hannes</p>
+    <p>Vitus</p>
+    <p>Jonas</p>
+    <p>Colin</p>
+    <p>Jonas</p>
+
+  </div>
+  <div class="footer-divider"></div>
+  <div class="footer-about" id="about"><h1>Über uns</h1>
+    <p>Wir sind das WWW-Projekt. Wir sind sechs Schüler der 12. Klasse und enge Freunde, welche sich die Erstellung und Präsentation dieser Website in einer Woche zum Ziel gesetzt haben. Unser genaues Ziel besteht in der Dokumentation und anschließender Präsentation der Projektwoche 2023. Das Team ist in 3 verschiedene Teams geteilt: ein Team für die Entwicklung, eins für die Informationssammlung und ein Team für die Verarbeitung und Darstellung der Informationen. Diese arbeiten in enger Kollaboration und intensiver Absprache miteinander um ein bestmögliches Ergebnis zu gewährleisten. </p></div>
+
+    <div class="socialmedia">
+      <div class="footer-link"><a href="#" class="fa fa-facebook"></a></div>
+      <div class="footer-link"><a href="#"class="fa fa-twitter"></a href="#"></div>
+      <div class="footer-link"><a href="#"class="fa fa-instagram"></a href="#"></div>
+    </div>
 </section>
     <script src="js/navbar.js"></script>
     <script src="js/index.js"></script>

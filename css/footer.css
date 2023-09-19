@@ -1,0 +1,75 @@
+@import url('colors.css');
+
+.footer{
+    background-color: #333333;
+    height: 40vw;
+    width: 100%;
+    position: absolute;
+}
+.footer-team{
+    margin-top: 5vw;
+float: left;
+margin-left: 23%;
+font-size: 1.5rem;
+}
+
+.footer-team p{
+    margin-top: -2vh;
+}
+.footer-about{
+float:right;
+margin-top: 5vw;
+margin-right: -30vw;
+font-size: 1.5rem;
+width: 40%;
+}
+
+.footer-about p{
+    margin-top: -2vh;
+    word-break: break-word;
+
+}
+
+.footer h1{
+    text-decoration: underline solid white .2vw;
+}
+
+.socialmedia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30vw;
+    width: 100%;
+}
+
+.footer-link{
+    height: 4vw;
+    width: 6vw;
+    background-color: var(--highlight-red);
+    margin: 0 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vw;
+}
+
+.footer-link a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.footer-link:hover{
+    background-color: var(--highlight-light-red);
+}
+
+.footer-divider{
+    background-color: white;
+    height: 20vw;
+    width: .2vw;
+    float: right;
+    margin-right: 65vw;
+    margin-left: -15vw;
+    margin-top: 3vw;
+}
