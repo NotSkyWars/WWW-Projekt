@@ -7,7 +7,7 @@ document.getElementById("previous").addEventListener("onclick",previous)
 var current = 0;
 var animation = 0;
 function next(){
-    if(current + 1 < document.getElementsByClassName("project").length-2){
+    if(current + 1 < document.getElementsByClassName("project").length-3){
         console.log(current);
         document.getElementById("rotation-" + current).style.animation = "slide-in"+ animation+" 0.5s forwards";
         document.getElementById("rotation-" + current).style.display = "none";
@@ -29,12 +29,12 @@ function next(){
 }
 
 function previous(){
-   if(current >-1 ){
+   if(current >0 ){
        console.log(current);
        for(var i = 0; i<4; i++){
     var prevcount = current == 0? current: current-1 +i;
     if(i == 3||i == 2 && current == 0 ){
-        var a = current-2 +i< document.getElementsByClassName("project").length? current== 0? current+3:current-2 +i : current-3 +i;
+        var a = current +i< document.getElementsByClassName("project").length? current== 0? current+3:current-1 +i : current-3 +i;
     document.getElementById("rotation-" + a).style.display = "none";
     }
     current == 0? document.getElementById("rotation-" + 1).style.animation = "slide-out"+ animation+" 0.5s forwards": document.getElementById("rotation-" + prevcount).style.animation = "slide-out"+ animation+" 0.5s forwards";
