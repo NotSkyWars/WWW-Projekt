@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/projekt.css">
+    <link rel="stylesheet" href="css/navbar.css?<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/footer.css?<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/projekt.css?<?php echo time(); ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    
     <title>Document</title>
@@ -108,38 +108,31 @@
     <section class="text"> 
     <div class="title">
         <?php 
-        echo $_POST['projekt'];
-        //get id, name, desk
-        ?>
-<h1>
-    Title
-</h1>
-    </div>
+        $json = json_decode(file_get_contents('projekte.json'),true);
+        $projekt = $json[$_POST['projekt']];
+        echo "<h1>". $projekt['name'] ."</h1>";
+        echo " </div>
 
-    <div class="description">
-        <p>Wir sind das WWW-Projekt. Wir sind sechs Schüler der 12. Klasse und enge Freunde, welche sich die Erstellung und Präsentation dieser Website in einer Woche zum Ziel gesetzt haben. Unser genaues Ziel besteht in der Dokumentation und anschließender Präsentation der Projektwoche 2023. Das Team ist in 3 verschiedene Teams geteilt: ein Team für die Entwicklung, eins für die Informationssammlung und ein Team für die Verarbeitung und Darstellung der Informationen. Diese arbeiten in enger Kollaboration und intensiver Absprache miteinander um ein bestmögliches Ergebnis zu gewährleisten. </p>
-    </div>
+        <div class='description'><p>". $projekt['desc'] ."</p></div>";
 
-<div class="media">      <video width="200vw" controls>
-    <source src="css/media/interview.mp4" type="video/mp4">
-    <source src="mov_bbb.ogg" type="video/ogg">
-    Your browser does not support HTML5 video.
-  </video></div>
-
-    </section>
-
-    <section class="interviews">
-        <div class="interview-title">
-            <h1>Interview</h1>
-        </div>
-        <div class="transkript">
-            <p>Q: "asdasd"
-                A:"sadds"
-            </p>
-        </div>
-    </section>
-
-    <section class="Galery">
+        echo '<div class="media">      <video width="200vw" controls>
+        <source src="css/media/'. $projekt['name'] .'.mp4" type="video/mp4">
+        <source src="mov_bbb.ogg" type="video/ogg">
+        Your browser does not support HTML5 video.
+      </video></div>
+    
+        </section>
+    
+        <section class="interviews">
+            <div class="interview-title">
+                <h1>Interview</h1>
+            </div>
+            <div class="transkript">
+                <p>'. $projekt['desc'] .'
+                </p>
+            </div>
+        </section>
+        <section class="Galery">
         <div class="interview-title">
             <h1>Galery</h1>
         </div>
@@ -157,7 +150,11 @@
             <img src="css/media/Logo.png">
             
         </div>
-    </section>
+    </section>'
+        ?>
+
+
+
     <section class="footer">
         <div class="footer-team"><h1>Team</h1>
           <p>Christian</p>
