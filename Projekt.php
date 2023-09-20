@@ -107,6 +107,10 @@
 
     <section class="text"> 
     <div class="title">
+        <?php 
+        echo $_POST['projekt'];
+        //get id, name, desk
+        ?>
 <h1>
     Title
 </h1>
