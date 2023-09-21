@@ -73,3 +73,41 @@ width: 40%;
     margin-left: -15vw;
     margin-top: 3vw;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .footer-team{
+        width: 100%;
+        float: none;
+        margin: 0;
+        
+    }
+    .footer-team p{
+        margin-left: 10%;
+    }
+    .footer{
+        height: 150vh;
+    }
+
+    .footer-about{
+        width: 100%;
+        float: none;
+        
+    }
+    .footer-about h1 {
+       
+        float: none;
+        width: 100%;
+        
+    }
+
+    .footer-about p{
+       margin-left: 10%;
+        float: none;
+        width: 90%;
+    }
+    .footer-link{
+        height: 14vw;
+        width: 16vw;
+    }
+  }

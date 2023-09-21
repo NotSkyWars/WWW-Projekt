@@ -45,10 +45,10 @@ z-index: 2;
 }
 
 .project{
-    margin: 5vw 1vw 0 1vw;
-    padding: 5vw 5vw;
+    margin: 5vw .1vw 0 .1vw;
+    padding: 5vw 1vw;
     border-radius: 1vw;
-    height: 20vw;
+    height: 22vw;
     width: 5vw;
     inline-size: 20vw;
    animation-iteration-count: infinite;
@@ -66,7 +66,9 @@ z-index: 2;
 
 .text-container{
     margin-top: -0vw;
+    width: 100%;
     float: right;
+    font-size: .7vw;
 }
 
 
@@ -261,3 +263,49 @@ box-shadow: -11px 0px 15px 5px  rgba(0,0,0,0.31);
 }
 
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .welcome-title p{
+       font-size: 4vw;
+        
+    }
+
+    .project{
+        padding:0 0 30vh 00vh;
+        width: 60vw;
+        height: 25vh;
+
+    }
+
+    .text-container{
+        font-size: .5rem;
+        width: 100%;
+    }
+    .Projects{
+        height: 100vh;
+    }
+
+    .right-divider{
+        height: 40vh;
+    }
+    .left-divider{
+        height: 40vh;
+    }
+
+    .footer{
+        margin-top: 100vh;
+    }
+
+    .welcome-title h1{
+        margin-top: 40vh;
+        font-size: 4.5vw;
+    }
+    
+    .welcome-title {
+       margin-top: 10vh;
+        width: 100%;
+    }
+    .welcome-title p{
+        font-size: 4vw;
+    }
+  }

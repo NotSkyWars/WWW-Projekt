@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
     <link rel="stylesheet" href="css/navbar.css?<?php echo time(); ?>">
     <link rel="stylesheet" href="css/footer.css?<?php echo time(); ?>">
-    <link rel="stylesheet" href="css/projekt.css?<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/index.css?<?php echo time(); ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
-    <title>Document</title>
-</head>
-<header id="nav-menu" aria-label="navigation bar">
+  </head>
+  <header id="nav-menu" aria-label="navigation bar">
   <?php 
   if(session_id() == '' || !isset($_SESSION) || session_status() === PHP_SESSION_NONE) {
     // session isn't started
@@ -121,66 +120,102 @@
       </div>
       <div class="nav-divider"></div>
   </header>
-<body>
-    
-
-    <section class="text"> 
-    <div class="title">
-        <?php 
-        $json = json_decode(file_get_contents('projekte.json'),true);
-        $projekt = $json[$_POST['projekt']];
-        $desc = "";
-        $interview = "";
-        if($_SESSION['language'] == "En"){
-            $desc = $projekt['engdesc'] ;
+  </main>
+  <body>
+    <section class="hero">
+      <div class="hero-title">
+       <?php 
+       if(isset($_SESSION['language']) && $_SESSION['language']== "En"){
+        echo ' <h1>Projectweek 2023</h1>';
        }else{
-                    $desc = $projekt['desc'] ;
-                    $interview = $projekt['inter'] ;
-        }
-   
-        echo "<h1>". $projekt['name'] ."</h1>";
-        echo " </div>
+        echo ' <h1>Projektwoche 2023</h1>';
+       }
+       ?>
+      </div>
+      
+    </section>
+      <section class="Projects">
+        <div class="nav-divider"></div>
+        <div class="right-divider"></div>
+        <div class="left-divider"></div>
+        <button class ="previous" id="previous" onclick="previous()">◄</button>
+        <button class ="next" id="next" onclick="next()">►</button>
+       
+          <div class="rotation">
+            <div class="project hidden" id="hidden"style="display: block;">
+              
+          </div>
+              <?php 
+                $json = json_decode(file_get_contents('projekte.json'),true);
+                $projects = $json;
+                $i = 0;
+              foreach($projects as $project){
+                $desc = "";
+                if(isset($_SESSION['language']) && $_SESSION['language']== "En"){
+               $desc = $project['engdesc'];
+                }else{
+                  $desc = $project['desc'];}
+                $visable = "";
+                if($i <2){
+                 
+                  $visable = "block";
+                }else{
+                  $visable ="none";
+                }
+              
+              echo '<div class="project" id="rotation-'. $i .'" style="display: '. $visable .';">
+              <img src="css/media/'. $project['name'] .'Logo.png"> 
+              <div class="text-container">
+                  <h1>'. $project['name'] .'</h1>
+                  <p>'. $desc .'</p>
+              </div>
+          </div>';
+          $i += 1;
+              }
+              ?>
+          </div></div></div>
 
-        <div class='description'><p>". $desc ."</p></div>";
+         
+<div class="welcome">
+<div class="welcome-title">
+<?php 
+       if(isset($_SESSION['language']) && $_SESSION['language']== "En"){
+        echo '  <h1>Welcome to the Projectweek of 2023!</h1>
+        <p>Welcome to the official page of the project week 2023, in which the 20th anniversary of the free grammar school in the monastery Neuzelle is the focus. Despite everything, for many years, regular project weeks are organized in which students participate in unique projects and present them afterwards. From languages to culture, science, sports and crafts, everything is there!</p>';
+       }else{
+        echo '  <h1>Willkommen in der Projektwoche 2023!</h1>
+        <p>Willkommen zur offiziellen Seite der Projektwoche 2023, in welcher das 20. Jubiläum des 
+          freien Gymnasiums im Stift Neuzelle im Mittelpunkt steht. Trotz allem werden seit vielen 
+          Jahren, regelmäßig Projektwochen organisiert, in denen die Schüler an einzigartigen 
+          Projekten teilnehmen und diese anschließend präsentieren. Von Sprachen über Kultur, 
+          Wissenschaft, Sport und Handwerk ist alles dabei!</p>';
+       }
+       ?>
+</div>
+</div>
+      </section>
+<section class="highlights">
+<div class="highlight-title">
+  <h1>Highlights</h1>
+</div>
+<div class="highlight-links">
+<table>
 
-        echo '<div class="media">      <video width="200vw" controls>
-        <source src="css/media/'. $projekt['name'] .'.mp4" type="video/mp4">
-        <source src="mov_bbb.ogg" type="video/ogg">
-        Your browser does not support HTML5 video.
-      </video></div>
-    
-        </section>
-    
-        <section class="interviews">
-            <div class="interview-title">
-                <h1>Interview</h1>
-            </div>
-            <div class="transkript">
-                <p>'. $interview .'
-                </p>
-            </div>
-        </section>
-        <section class="Galery">
-        <div class="interview-title">
-            <h1>Galery</h1>
-        </div>
-        <div class="pictures">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            
-        </div>
-    </section>'
-        ?>
+<?php 
+       if(isset($_SESSION['language']) && $_SESSION['language']== "En"){
+        echo '  <tr> <td><a href="#">Student  concert «</a></td></tr>
+        <tr> <td><a href="#">Talentfestival «</a></td></tr>
+        <tr> <td><a href="#">Orchestra «</a></td></tr>';
+       }else{
+        echo '  <tr> <td><a href="#">Schülerkonzert «</a></td></tr>
+        <tr> <td><a href="#">Talentefest «</a></td></tr>
+        <tr> <td><a href="#">Orchester «</a></td></tr>';
+       }
+       ?>
 
+</table>
+</div>
+</section>
 
 <section class="footer">
   <div class="footer-team"><h1>Team</h1>
@@ -197,7 +232,7 @@
   <?php 
        if(isset($_SESSION['language']) && $_SESSION['language']== "En"){
         echo '  <h1>About us</h1>
-        <p>Wir sind das WWW-Projekt. Wir sind sechs Schüler der 12. Klasse und enge Freunde, welche sich die Erstellung und Präsentation dieser Website in einer Woche zum Ziel gesetzt haben. Unser genaues Ziel besteht in der Dokumentation und anschließender Präsentation der Projektwoche 2023. Das Team ist in 3 verschiedene Teams geteilt: ein Team für die Entwicklung, eins für die Informationssammlung und ein Team für die Verarbeitung und Darstellung der Informationen. Diese arbeiten in enger Kollaboration und intensiver Absprache miteinander um ein bestmögliches Ergebnis zu gewährleisten. </p></div>
+        <p>We are the WWW project. We are six 12th grade students and close friends who have set the goal of creating and presenting this website in one week. Our exact goal is to document and then present the project week 2023. The team is divided into 3 different teams: one for development, one for information gathering and one for processing and presenting the information. These work in close collaboration and intensive consultation with each other to ensure the best possible result.</p></div>
     ';
        }else{
         echo '  <h1>Über uns</h1>
@@ -211,6 +246,7 @@
       <div class="footer-link"><a href="#"class="fa fa-instagram"></a href="#"></div>
     </div>
 </section>
-      <script src="js/navbar.js"></script>
-</body>
+    <script src="js/navbar.js"></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
