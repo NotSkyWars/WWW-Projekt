@@ -1,177 +1,234 @@
 {
-"Charleston in Neuzelle" : { 
-  "name": "Charleston in Neuzelle", 
-   "path":"css/media/test", 
-   "desc":"Das Tanzbein schwingen: In diesem Projekt plant und erstellt der Grundkurs Sport der Klasse 12 unter Frau Schneider erste Teile ihres TanzvideosSie tanzen einen Klassiker der zwanziger Jahre: den CharlestonWährenddessen wird zudem stilvoll unser Klostergelände und Campus vorgestellt.", 
 
-"id":"1"
+"Charleston in Neuzelle" : {
+ "name": "Charleston in Neuzelle",
+ "path":["test.png","test2.png"], 
+
+"desc":"Das Tanzbein schwingen: In diesem Projekt plant und erstellt der Grundkurs Sport der Klasse 12 unter Frau Schneider erste Teile ihres Tanzvideos. Sie tanzen einen Klassiker der zwanziger Jahre: den Charleston. Zudem wird Währenddessen stilvoll unser Klostergelände und Campus vorgestellt.", 
+
+"engdesc":"Time to bust a move: In this project, the 12th grade sports basic course under Ms. Schneider plan and film first parts of their planned dance-video. They`re dancing a classic from the 1920`s: The Charleston. Together with the dance they`ll also present our Monastery grounds and our Campus with style.", 
+
+ "interview":"test.mp4", 
+
+ "inter":"Q:asdasdasd", 
+
+ "enginter":"asdasd", 
+
+ "id":"1" 
+
 }, 
 
 "Gamification – Spielend Lernen" : { 
-   "name":"Gamification – Spielend Lernen", 
-   "path":"css/media/test", 
-   "desc":"Spaß beim Lernen? Gamification ist der Versuch, die Motivation zum Lernen zu steigern, indem ein spielerischer Ansatz zur Vermittlung der Unterrichtsinhalte angewendet wirdDieser Ansatz ist zwar nicht neu, soll jedoch in diesem Projekt ausgebaut werdenSie erstellen kleine Lernspiele, welche als Ziel den Spaß beim Lernen verfolgen.", 
-"id":"2"
+
+ "name":"Gamification – Spielend Lernen", 
+
+ "path":["Gamefikation.png","Gamefikation 3.png","Gamefizieren 5.png"], 
+
+ "desc":"Spaß beim Lernen? Gamification ist der Versuch, die Motivation zum Lernen zu steigern, indem ein spielerischer Ansatz zur Vermittlung der Unterrichtsinhalte angewendet wird. Dieser Ansatz ist zwar nicht neu, soll jedoch in diesem Projekt ausgebaut werden. Sie erstellen kleine Lernspiele, welche als Ziel den Spaß beim Lernen verfolgen.", 
+
+"engdesc": "Fun while Learning? Gamification is an attempt to improve the motivation to learn and convey the learning material to the students through a playful manner. This concept is nothing new and the goal of the project is to develop this concept rather than redefine it. The students are going to develop their own leaning game at the end of the week with the goal of making learning fun." ,
+
+"interview":"test.mp4", 
+
+ "inter":"Q:asdasdasd", 
+
+ "enginter":"asdasd", 
+
+"id":"2" 
+
 }, 
+
+ 
+
+ 
 
 "Mathematische und physikalische Probleme" : { 
-   "name":"Mathematische und physikalische Probleme", 
-   "path":"css/media/test", 
-   "desc":"Hier beginnt der Kopf zu rauchen: In diesem Projekt wird sich mit bisher noch ungelösten Problemen aus der Mathematik und Physik auseinandergesetztDes weiteren erfahren die Schüler welche Anforderungen an sie im Studium gestellt werden.", 
-"id":"3"
+
+ "name":"Mathematische und physikalische Probleme", 
+
+ "path":["test.png","test2.png"], 
+
+"desc":"Hier beginnt der Kopf zu rauchen: In diesem Projekt wird sich mit bisher noch ungelösten Problemen aus der Mathematik und Physik auseinandergesetzt. Des Weiteren erfahren die Schüler welche Anforderungen an sie im Studium gestellt werden.", 
+
+"engdesc":" Your head is going to smoke after this one: This project deals with unsolved Mathematical and Physical problems and the students will be informed about what they should know about Studying.", 
+
+"interview":"test.mp4", 
+
+"inter":"Q:asdasdasd", 
+
+"enginter":"asdasd", 
+
+"id":"3" 
+
 }, 
 
-"Studying abroadBe familiar with Cambridge English Exam" : { 
-   "name":"Studying abroadBe familiar with Cambridge English Exam", 
-   "path":"css/media/test", 
-   "desc":"Es wird international und lehrreich: Hier lernt man EnglischIn diesem Projekt arbeiten die Schüler auf Grundlage des weltweiten angesehenen Cambridge English Qualifications Exam an ihren Fähigkeiten im schreiben, lesen und verstehen der englischen SpracheEnglisch eröffnet einem viele Möglichkeiten im Leben wie z.Beine Ausbildung und Job im Ausland und verbesserte Chancen in der Arbeitswelt.", 
-"id":"4"
-}, 
+"Studying abroad - Be familiar with Cambridge English Exam" : { 
+
+ "name":"Studying abroad - Be familiar with Cambridge English Exam", 
+
+ "path":["England 3.png","England 4.png","Englisch 2.png","Englisch.png"], 
+
+"desc":"Es wird international und lehrreich: Hier lernt man Englisch. In diesem Projekt arbeiten die Schüler auf Grundlage des weltweiten angesehenen Cambridge English Qualifications Exam an ihren Fähigkeiten im Schreiben, lesen und verstehen der englischen Sprache. Englisch eröffnet einem viele Möglichkeiten im Leben wie z.B. eine Ausbildung und Job im Ausland und verbesserte Chancen in der Arbeitswelt.", 
+
+"engdesc": "Its getting international: The focus in this project lies in learning english. The students will work on their English skills based on the Cambridge English Qualifications Exam. These skills include writing, reading and the understanding of the english language. Well-developed english skills being a good amount of opportunities in life like a job abroad and better career opportunities.","interview":"test.mp4", 
+
+ "inter":"Q:asdasdasd", 
+
+ "enginter":"asdasd", 
+
+ 
+
+"id":"4" 
+
+},
 
 "Einführung in die Traditionelle Chinesische Medizin" : { 
-   "name":"Einführung in die Traditionelle Chinesische Medizin", 
-   "path":"css/media/test", 
-   "desc":"Ein Stück Heimat in Deutschland: Es werden Theorien und Praktiken von chinesischer Medizin verbunden und an Schülern angewendetVon kleinen Meditationen zu traditioneller Medizin und Bewegungsübungen die Stress reduzieren ist alles dabei.", 
-"id":"5"
-}, 
+
+ "name":"Einführung in die Traditionelle Chinesische Medizin", 
+
+"path":["test.png","test2.png"], 
+
+ "desc":"Ein Stück Heimat in Deutschland: Es werden Theorien und Praktiken von chinesischer Medizin verbunden und an Schülern angewendet. Von kleinen Meditationen zu traditioneller Medizin und Bewegungsübungen, welche Stress reduzieren ist alles dabei.", 
+
+"engdesc":"A piece of home in germany: Theories and practices of the old Chinese medicine will be connected and practiced on students . From small meditations to traditional medicine and movement exercises which reduce stress everything is included.", 
+
+"interview":"test.mp4", 
+
+ "inter":"Q:asdasdasd", 
+
+ "enginter":"asdasd", 
+
+ 
+
+"id":"5" 
+
+ 
+
+ 
+
+},
 
 "Verborgenes Entdecken" : { 
-   "name":"Verborgenes Entdecken", 
-   "path":"css/media/test", 
-   "desc":"Kunst in der Kirche: Der Seminarkurs der 11Klasse erkundet mittelalterliche Wandmalereien in der Nikolaikirche in Frankfurt/OderSie beschäftigen sich mit Ikonographie, fertigen Kopien an und inspizieren die Installation des Giebels.", 
-"id":"6"
+
+ "name":"Verborgenes Entdecken", 
+
+ "path":["Kunstprojekt.png","test2.png"], 
+
+ "desc":"Kunst in der Kirche: Der Seminarkurs der 11. Klasse erkundet mittelalterliche Wandmalereien in der Nikolaikirche in Frankfurt/Oder. Sie beschäftigen sich mit Ikonographie, fertigen Kopien an und inspizieren die Installation des Giebels.", 
+
+"engdesc":"Art in the Church: The seminar course from the 11th grade travel to the Nikolai-church in Frankfurt/Oder. The students engage with iconography, create copies of the art and research the installation of the gable."
+,"interview":"test.mp4", 
+
+ "inter":"Q:asdasdasd", 
+
+ "enginter":"asdasd", 
+
+ 
+
+"id":"6" 
+
 }, 
 
 "Lust auf Experimentieren?" : { 
-   "name":"Lust auf Experimentieren?", 
-   "path":"css/media/test", 
-   "desc":"Die Wissenschaft ruft: Physikalische Experimente von A bis Z, seien es spannende Handexperimente aus alltäglichen Materialien wie ein Minifallschirm für ein Ei oder Selbstversuche aus den verschiedensten GebietenDer Höhepunkt des Projekts ist ein Ausflug ins Science Center Spektrum in Berlin.", 
-"id":"7"
+
+ "name":"Lust auf Experimentieren?", 
+
+ "path":["Physik.png","test2.png"], 
+
+"desc":"Die Wissenschaft ruft: Physikalische Experimente von A bis Z, seien es spannende Handexperimente aus alltäglichen Materialien wie ein Minifallschirm für ein Ei oder Selbstversuch e aus den verschiedensten Gebieten werden hier angeboten. Der Höhepunkt des Projekts ist ein Ausflug ins Science Center Spektrum in Berlin.", 
+
+"engdesc":"Science is calling! Physical experiments from A to Z are being done here, whether it be a parachute for an egg, interesting experiments out of everyday life materials or self-experiments from many different topics of physics. The highlight of this project is the trip to the Science Center Spektrum in berlin.", 
+
+"interview":"test.mp4", 
+
+ "inter":"Q:asdasdasd", 
+
+ "enginter":"asdasd", 
+
+ 
+
+"id":"7" 
+
+}, 
+"Dancing Queen": {
+
+ "name":"Dancing Queen", "path":"css/media/test", 
+
+"desc":"Das Talente Fest steht vor der Tür: Für diesen Anlass erarbeiten die Schüler gemeinsam in diesem Projekt eine atemberaubende Choreographie und üben diese mit ihren Trainerinnen Dana Berger und Paula Drees ein.", 
+
+"engdesc":"The talent show is around the corner and with that in mind the students of  this project study a breath-taking choreography for it with their trainers Dana Berger and Paula Drees", 
+"id" :"8" 
 }, 
 
-"Dancing Queen" : { 
-   "name":"Dancing Queen", 
-   "path":"css/media/test", 
-   "desc":"Das Talente Fest steht vor der Tür: Für diesen Anlass erarbeiten die Schüler gemeinsam in diesem Projekt eine atemberaubende Choreographie und üben diese mit ihren Trainerinnen Dana Berger und Paula Drees ein.", 
-"id":"8"
-}, 
+"Schulsanitätsdienst und Erste-Hilfe-Workshop":{ 
 
-"Schulsanitätsdienst und Erste-Hilfe-Workshop" : { 
-   "name":"Schulsanitätsdienst und Erste-Hilfe-Workshop", 
-   "path":"css/media/test", 
-   "desc":"Ein Projekt fürs Allgemeinwohl: Der Start des Schulsanitätsdienstes und die Grundlagen der ersten Hilfe werden von ambitionierten Lehrern den Schülern nähergebracht.", 
-"id":"9"
-}, 
+"name":"Schulsanitätsdienst und Erste-Hilfe-Workshop", "path":"css/media/test", 
+
+"desc":"Ein Projekt fürs Allgemeinwohl: Der Start des Schulsanitätsdienstes und die Grundlagen der ersten Hilfe werden von ambitionierten Lehrern den Schülern nähergebracht.",
+
+"engdesc":"A project for the common good: The start of the School medical service and the basics of first-aid are being  taugt to ambitious students from ambitious teachers.", 
+"id" :"10" 
+} ,
 
 "Tausend und eine Nacht - Geheimnisse des Orients" : { 
-   "name":"Tausend und eine Nacht - Geheimnisse des Orients", 
-   "path":"css/media/test", 
-   "desc":"Der Orient in Neuzelle: Der Herkunft einiger unserer Schüler und Lehrern zufolge setzt sich dieses Projekt mit den Geheimissen des alten und modernen Orients am Beispiel einiger Länder wie Oman, Ägypten sowie Syrien und Persien auseinanderDie Schüler erkunden die arabischen und persischen Schriften und probieren sich an der Kunst der KalligraphieDie Ursprünge des Schachspiels werden unter mystischen Umständen ergründet und abgerundet durch eine Exkursion ins Pergamon Museum in Berlin.", 
-"id":"10"
-}, 
 
-"Do-It-Yourself nachhaltige Fashion" : { 
-   "name":"Do-It-Yourself nachhaltige Fashion", 
-   "path":"css/media/test", 
-   "desc":"So gut wie neu: 'Nachhaltige Kleidung muss ein Symbol unserer Zeit werden.' Das ist der Leitsatz dieses Projektes, in dem Schüler lernen nachhaltig mit ihren Kleidungsstücken umzugehen oder neue Dinge aus ihnen zu fertigenWeitere Themen des Projektes sind Kleidertausch-Partys und Kleider-Flohmärkte.", 
-"id":"11"
-}, 
+"name":"Tausend und eine Nacht - Geheimnisse des Orients", "path":"css/media/test", 
 
-"Sprache und Kultur unserer ukrainischen und polnischen Klassenkameraden" : { 
-   "name":"Sprache und Kultur unserer ukrainischen und polnischen Klassenkameraden", 
-   "path":"css/media/test", 
-   "desc":"Eine Schule der Kulturen: In diesem Projekt lernen Schüler kulturelle Gemeinsamkeiten und Unterschiede von Mitschülern aus anderen Ländern kennenDabei verbessern sie ihren Zusammenhalt und ihre Beziehungen.", 
-"id":"12"
-}, 
+"desc":"Der Orient in Neuzelle: Mit der Herkunft einiger unserer Schüler und Lehrer korrelierend setzt sich dieses Projekt mit den Geheimissen des alten und modernen Orients am Beispiel einiger Länder wie Oman, Ägypten sowie Syrien und Persien auseinander. Die Schüler erkunden die arabischen und persischen Schriften und probieren sich an der Kunst der Kalligraphie. Des Weiteren werden Die Ursprünge des Schachspiels unter mystischen Umständen ergründet und abgerundet durch eine Exkursion ins Pergamon Museum in Berlin.", 
 
-"Nachhaltiges mit Papier" : { 
-   "name":"Nachhaltiges mit Papier", 
-   "path":"css/media/test", 
-   "desc":" Ihr stellt was her?: Die Schüler stellen mit ihren Lehrern zusammen Papier her und präsentieren die letzten 20 Jahre der Rahn Education.", 
-"id":"13"
-}, 
+"engdesc":"The orient in Neuzelle: In correlation with some of the students and teachers in this school, this project deals with the secrets of the old and the modern  Orient with countries like Egypt, Syria, Persia and the Oman. The students explore Arabic and Persian scripts and try themselves on the art of calligraphy. Another step will research the origins of chess under mystical circumstances and rounded off with an excursion to the Pergamon Museum in berlin.", 
+"id" :"10" 
+} ,
 
-"Unser Klostergarten" : { 
-   "name":"Unser Klostergarten", 
-   "path":"css/media/test", 
-   "desc":"Jetzt wird’s Grün: Das Neuzeller Kloster hat wie die meisten Kloster auch einen GartenIn diesem Projekt ergründen die Schüler den Nutzen des KlostergartensWas wurde angebaut? Sind alle Klostergärten gleich? Was hat sich verändert? Dies sind einige der Fragen, die gestellt werden.", 
-"id":"14"
-}, 
+"11":{ 
 
-"Bilderreise Südafrika" : { 
-   "name":"Bilderreise Südafrika", 
-   "path":"css/media/test", 
-   "desc":"Unsere Partnerschule: Wir sammeln bis heute jedes Jahr beim Archelauf Spenden für die Schüler der ArcheDiese kommen unserer Partnerschule in Kapstadt zuguteDas Ziel dieses Projektes ist es den Schülern die Kultur und Landschaft Südafrikas nahezubringenSie beschäftigen sich mit ökonomisch, politisch und kulturellen Besonderheiten und erarbeiten eine Bilderreise durch das Land.", 
-"id":"15"
-}, 
+"name":"Do-It-Yourself nachhaltige Fashion", "path":"css/media/test", 
 
-"Les relations franco-allemandes, mieux comprendre son voisin" : { 
-   "name":"Les relations franco-allemandes, mieux comprendre son voisin", 
-   "path":"css/media/test", 
-   "desc":"Die deutsch-Französischen BeziehungenDen Nachbarn besser verstehen: 1963 öffnete der Elysee-Vertrag den Weg zur heutigen Europäischen UnionNach zwei Weltkriegen haben sich Franzosen und Deutsche endlich versöhnt und sind zu den führenden Kräften in Europa gewordenIst jetzt also alles wieder in Ordnung? Diese Frage stellen sich die Schüler und setzten sich kritisch mit dem Thema auseinander.", 
-"id":"16"
-}, 
+"desc":"So gut wie neu: 'Nachhaltige Kleidung muss ein Symbol unserer Zeit werden.' Das ist der Leitsatz dieses Projektes, in dem Schüler lernen nachhaltig mit ihren Kleidungsstücken umzugehen oder neue Dinge aus ihnen zu fertigen. Weitere Themen des Projektes sind Kleidertauschpartys und Kleider-Flohmärkte.", 
 
-"Akrobatik mit Zirkus- Zirkus mit Akrobatik?" : { 
-   "name":"Akrobatik mit Zirkus- Zirkus mit Akrobatik?", 
-   "path":"css/media/test", 
-   "desc":"Lust auf Bewegung? Jonglieren, Balancieren, Einradfahren, Stelzenlauf und vieles mehr können Schüler in diesem Projekt ausprobieren und meistern.", 
-"id":"17"
-}, 
+"engdesc":"As good as new: sustainability is an important aspect in our lives today. That's why this project is creating new clothes out of old pieces of clothing while simultaneously teaching the students to treat their clothes with care and a sense of sustainability. This project furthermore discusses Clothes Swap Partys and Clothes flea markets.", 
+"id" :"11" 
+} ,
 
-"Neuzelle ‘erfahren’" : { 
-   "name":"Neuzelle ‘erfahren’", 
-   "path":"css/media/test", 
-   "desc":"Aufs Rad und los geht’s: Radtouren durch die verschiedenen Ortsteile von Neuzelle und die Geschichte und Sehenswürdigkeiten der einzelnen Orte kennenlernen und dokumentierenDie Schüler dieses Projektes erwartet viel Getrampel, aber auch belohnende Ziele.", 
-"id":"18"
-}, 
+ 
 
-"Theater mal anders - 'Teatr po polsku'" : { 
-   "name":"Theater mal anders - 'Teatr po polsku'", 
-   "path":"css/media/test", 
-   "desc":"Action! Schüler, die ein Faible für die polnische Sprache haben stellen ihr Können unter Beweis, indem sie ein Theaterstück auf polnisch lernen, welches sie bei der Talente Show präsentieren.", 
-"id":"19"
-}, 
+ 
 
-"Riesen und Großköpfe" : { 
-   "name":"Riesen und Großköpfe", 
-   "path":"css/media/test", 
-   "desc":"Party! Schüler basteln und bauen riesige Figuren und Kostüme die sowohl auf spanischen Partys als auch in anderen Ländern bekannt sindDiese werden dann in einem Theaterstück vorgestellt, um Den Tag der europäischen Sprachen und 20 Jahre Gymnasium Neuzelle zu feiern.", 
-"id":"20"
-}, 
+ 
 
-"Fremdsprachentag in Neuzelle" : { 
-   "name":"Fremdsprachentag in Neuzelle", 
-   "path":"css/media/test", 
-   "desc":"Andere Sprachen und Kulturen: In Vorbereitung für den Fremdsprachentag werden Schüler Besonderheiten verschiedener Sprachen und Kulturen erforschen und mit Muttersprachlern in verschiedenen Aktivitäten kommunizierenIm Weiteren werden T-Shirt und Taschen mit farbigen Motiven und Fremdwörtern gestaltet.", 
-"id":"21"
-}, 
+ 
 
-"Do-It-Yourself Musik" : { 
-   "name":"Do-It-Yourself Musik", 
-   "path":"css/media/test", 
-   "desc":"Mark Forster oder Beethoven: In diesem Projekt können Schüler frei musizieren, singen und bereiten sich auf den Tag der offenen Tür vor.", 
-"id":"22"
-}, 
+"12":{ 
 
-"Zeitreise zurück zu den Anfängen des Gymnasiums" : { 
-   "name":"Zeitreise zurück zu den Anfängen des Gymnasiums", 
-   "path":"css/media/test", 
-   "desc":"Auf in die Vergangenheit!: Dieses Projekt versetzt die Schüler zurück zu den Anfängen unserer SchuleEs werden Lieder, Songs und Body Percussion von ehemaligen Schülerinnen und Schülern in der Gründungszeit erarbeitetDiese wurden öffentlich gesungen und musiziert und sorgen noch heute für Spaß und Freude.", 
-"id":"23"
-}, 
+"name":"Sprache und Kultur unserer ukrainischen und polnischen Klassenkameraden", 
+"path":"css/media/test", 
 
-"20 Jahre Schulgeschichte noch einmal erleben" : { 
-   "name":"20 Jahre Schulgeschichte noch einmal erleben", 
-   "path":"css/media/test", 
-   "desc":"Zurück in die Zukunft!: In diesem Projekt wollen die Schüler die letzten 20Jahre des Rahn Gymnasiums von den Anfängen bis in die Gegenwart rekonstruierenUm dies zu erreichen, arbeiten sie an einem informativen Dokumentationsvideo.", 
-"id":"24"
-}, 
+"desc":"Eine Schule der Kulturen: In diesem Projekt lernen Schüler kulturelle Gemeinsamkeiten und Unterschiede von Mitschülern aus anderen Ländern kennen. Dabei verbessern sie ihren Zusammenhalt und ihre Beziehungen.", 
 
-"WWW-Projekt" : { 
-   "name":"WWW-Projekt", 
-   "path":"css/media/test", 
-   "desc":"Nerd Alert: Eine Gruppe aus motivierten Abiturenten hat es sich zur Aufgabe gemacht die Projektwoche und seine Veranstaltungen auf einer Internetseite darzustellen und die Highlights der Woche in Bild und Video einzufangen.", 
-"id":"25"
-} 
+"engdesc":"A school full of cultures: In this project, students get to know and explore cultural differences and similarities between each other. This serves the reason to improve the teamwork and the relationships between the students.",
+"id" :"12" 
+
+} ,
+
+"13":{ 
+
+"name":"Nachhaltiges mit Papier", 
+"path":"css/media/test", 
+
+"desc":" Ihr stellt was her? Die Schüler stellen mit ihren Lehrern zusammen Papier her und präsentieren die letzten 20 Jahre der Rahn Education.", 
+
+"engdesc":"You guys make what? The students in this project manufacture paper and present the last 20 years of Rahn Education together with their teachers.", 
+"id" :"13" 
+} ,
+
+"14":{ 
+
+"name":"Unser Klostergarten", 
+"path":"css/media/test", 
+
+"desc":"Jetzt wird's Grün: Das Neuzeller Kloster hat wie die meisten Kloster auch einen Garten. In diesem Projekt ergründen die Schüler den Nutzen des Klostergartens. Was wurde angebaut? Sind alle Klostergärten gleich? Was hat sich verändert? Dies sind einige der Fragen, die gestellt werden.", 
+
+"engdesc":"Its getting green: The monastery in Neuzelle has a garden like most monasteries. That's the reason this project exists. It revolves around the monastery garden and researches questions like: What is cultivated? Is every monastery garden the same? What changed in the last centuries? These and many more questions are being answered in this project", 
+"id" :"14" 
 }
+ 
