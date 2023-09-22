@@ -164,21 +164,11 @@
         <div class="interview-title">
             <h1>Galery</h1>
         </div>
-        <div class="pictures">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            <img src="css/media/Logo.png">
-            
-        </div>
-    </section>'
+        <div class="pictures">';
+        foreach($projekt['path'] as $image){
+          echo '<img src="css/media/". $image .".png">';
+        } 
+            echo ' </div> </section>';
         ?>
 
 
