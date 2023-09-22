@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -164,11 +164,16 @@
                 }
               
               echo '<div class="project" id="rotation-'. $i .'" style="display: '. $visable .';">
+              <form method="POST"  action="Projekt.php" id="projekt-form'. $i .'">
+              <a href="" onclick="document.getElementById("projekt-form'. $i .'").submit();">
               <img src="css/media/'. $project['name'] .'Logo.png"> 
               <div class="text-container">
                   <h1>'. $project['name'] .'</h1>
                   <p>'. $desc .'</p>
               </div>
+              <input type="hidden" id="submit" name="projekt" value="'. $project['name'] .'"> </input>
+              </a>
+              </form>
           </div>';
           $i += 1;
               }

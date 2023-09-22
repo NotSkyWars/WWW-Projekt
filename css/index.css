@@ -55,6 +55,12 @@ z-index: 2;
     background-color: var(--highlight-light-gray);
     transition: slide-in0 1s;
 }
+.project a{
+    color: white;
+}
+.project a:hover {
+    color: var(--highlight-light-red);
+}
 
 
 .project img{
@@ -269,12 +275,8 @@ box-shadow: -11px 0px 15px 5px  rgba(0,0,0,0.31);
        font-size: 4vw;
         
     }
-
-    .project{
-        padding:0 0 30vh 00vh;
-        width: 60vw;
-        height: 25vh;
-
+    .rotation, .left-divider,.right-divider,.next,.previous{
+        display: none;
     }
 
     .text-container{
@@ -285,25 +287,19 @@ box-shadow: -11px 0px 15px 5px  rgba(0,0,0,0.31);
         height: 100vh;
     }
 
-    .right-divider{
-        height: 40vh;
-    }
-    .left-divider{
-        height: 40vh;
-    }
 
     .footer{
         margin-top: 100vh;
     }
 
     .welcome-title h1{
-        margin-top: 40vh;
+        margin-top: 0vh;
         font-size: 4.5vw;
     }
     
     .welcome-title {
-       margin-top: 10vh;
-        width: 100%;
+       margin-top: 70vh;
+        width: 80%;
     }
     .welcome-title p{
         font-size: 4vw;
