@@ -46,9 +46,9 @@ z-index: 2;
 
 .project{
     margin: 5vw .1vw 0 .1vw;
-    padding: 5vw 1vw;
+    padding: 6vw 1vw;
     border-radius: 1vw;
-    height: 22vw;
+    height: 24vw;
     width: 5vw;
     inline-size: 20vw;
    animation-iteration-count: infinite;
@@ -65,7 +65,7 @@ z-index: 2;
 
 .project img{
     margin-top: 0;
-    width: 70%;
+    width: 90%;
     height: auto;
     float: left;
 }
