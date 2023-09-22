@@ -165,15 +165,15 @@
             
                 $pid = $i +1;
               echo '<div class="project" id="rotation-'. $i .'" style="display: '. $visable .';">
-              <form method="POST"  action="Projekt.php" id="projekt-form'. $i .'">
-              <a href="" onclick="document.getElementById("projekt-form'. $i .'").submit();">
+              <form method="POST"  action="Projekt.php" id="projekt-form-'. $i .'">
+              <button  id="projekt-'. $i .'" href="">
               <img src="css/media/www Symbole '. $pid .'.png"> 
               <div class="text-container">
                   <h1>'. $project['name'] .'</h1>
                   <p>'. $desc .'</p>
               </div>
               <input type="hidden" id="submit" name="projekt" value="'. $project['name'] .'"> </input>
-              </a>
+              </button>
               </form>
           </div>';
           $i += 1;
@@ -247,12 +247,13 @@
        }
        ?>
     <div class="socialmedia">
-      <div class="footer-link"><a href="#" class="fa fa-facebook"></a></div>
-      <div class="footer-link"><a href="#"class="fa fa-twitter"></a href="#"></div>
-      <div class="footer-link"><a href="#"class="fa fa-instagram"></a href="#"></div>
+      <div class="footer-link"><a href="https://www.facebook.com/CampusimStiftNeuzelle" class="fa fa-facebook"></a></div>
+      <div class="footer-link"><a href="https://www.youtube.com/@RahnEducation" class="fa fa-youtube"></a></div>
+      <div class="footer-link"><a href="https://twitter.com/RahnEducation"class="fa fa-twitter"></a href="#"></div>
+      <div class="footer-link"><a href="https://www.instagram.com/campus.im.stift.neuzelle/"class="fa fa-instagram"></a href="#"></div>
     </div>
 </section>
     <script src="js/navbar.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/index.js?<?php echo time(); ?>"></script>
   </body>
 </html>

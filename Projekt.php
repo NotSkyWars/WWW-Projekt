@@ -144,7 +144,7 @@
         <div class='description'><p>". $desc ."</p></div>";
 
         echo '<div class="media">      <video width="200vw" controls>
-        <source src="css/media/'. $projekt['name'] .'.mp4" type="video/mp4">
+        <source src="css/media/'. $projekt['interview'] .'" type="video/mp4">
         <source src="mov_bbb.ogg" type="video/ogg">
         Your browser does not support HTML5 video.
       </video></div>
@@ -171,7 +171,6 @@
             echo ' </div> </section>';
         ?>
 
-
 <section class="footer">
   <div class="footer-team"><h1>Team</h1>
     <p>Christian</p>
@@ -187,7 +186,7 @@
   <?php 
        if(isset($_SESSION['language']) && $_SESSION['language']== "En"){
         echo '  <h1>About us</h1>
-        <p>Wir sind das WWW-Projekt. Wir sind sechs Schüler der 12. Klasse und enge Freunde, welche sich die Erstellung und Präsentation dieser Website in einer Woche zum Ziel gesetzt haben. Unser genaues Ziel besteht in der Dokumentation und anschließender Präsentation der Projektwoche 2023. Das Team ist in 3 verschiedene Teams geteilt: ein Team für die Entwicklung, eins für die Informationssammlung und ein Team für die Verarbeitung und Darstellung der Informationen. Diese arbeiten in enger Kollaboration und intensiver Absprache miteinander um ein bestmögliches Ergebnis zu gewährleisten. </p></div>
+        <p>We are the WWW project. We are six 12th grade students and close friends who have set the goal of creating and presenting this website in one week. Our exact goal is to document and then present the project week 2023. The team is divided into 3 different teams: one for development, one for information gathering and one for processing and presenting the information. These work in close collaboration and intensive consultation with each other to ensure the best possible result.</p></div>
     ';
        }else{
         echo '  <h1>Über uns</h1>
@@ -196,9 +195,10 @@
        }
        ?>
     <div class="socialmedia">
-      <div class="footer-link"><a href="#" class="fa fa-facebook"></a></div>
-      <div class="footer-link"><a href="#"class="fa fa-twitter"></a href="#"></div>
-      <div class="footer-link"><a href="#"class="fa fa-instagram"></a href="#"></div>
+      <div class="footer-link"><a href="https://www.facebook.com/CampusimStiftNeuzelle" class="fa fa-facebook"></a></div>
+      <div class="footer-link"><a href="https://www.youtube.com/@RahnEducation" class="fa fa-youtube"></a></div>
+      <div class="footer-link"><a href="https://twitter.com/RahnEducation"class="fa fa-twitter"></a href="#"></div>
+      <div class="footer-link"><a href="https://www.instagram.com/campus.im.stift.neuzelle/"class="fa fa-instagram"></a href="#"></div>
     </div>
 </section>
       <script src="js/navbar.js"></script>

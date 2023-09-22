@@ -55,10 +55,12 @@ z-index: 2;
     background-color: var(--highlight-light-gray);
     transition: slide-in0 1s;
 }
-.project a{
+.project button{
+    background-color: transparent;
+    border: none;
     color: white;
 }
-.project a:hover {
+.project button:hover {
     color: var(--highlight-light-red);
 }
 

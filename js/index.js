@@ -58,6 +58,15 @@ function previous(){
 
 
 window.onload = (event) => {
+
+    for(let i = 0; i < document.getElementsByClassName("project").length -1; i++){
+        console.log( document.getElementById("projekt-" + i));
+        console.log( document.getElementById("projekt-form-"+i));
+        document.getElementById("projekt-" + i).addEventListener("onclick",function(){
+            console.log("sda");
+            document.getElementById("projekt-form-"+i).submit();
+        })
+    }
    setInterval(function(){
     i = 0;
     console.log('sadasd');
@@ -105,7 +114,7 @@ window.onload = (event) => {
         }
         }
         console.log("dasasda" + current);
-   },50)
+   },50000)
   };
 
   function sleep(delay) {
